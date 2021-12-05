@@ -5,7 +5,7 @@
 #include<iostream>
 #include<stdio.h>
 #include<cmath>
-#include"func.cpp"
+#include"inc/func.cpp"
 using namespace std;
 
 
