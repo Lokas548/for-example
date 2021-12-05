@@ -1,14 +1,15 @@
-cmake_minimum_required(VERSION 3.22.0)
+cmake_minimum_required(VERSION 3.15) # Проверка версии CMake.
+									 # Если версия установленой программы
+									 # старее указаной, произайдёт аварийный выход.
 
-
-set(lab6)				 # имя проекта		 
-project("${lab6}")
+set(PROJECT_NAME lab6)				 # имя проекта		 
+project("${PROJECT_NAME}")
 
 
 set(CMAKE_CXX_STANDARD 17)			 # устанавливаем 17 стандарт языка
 set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 
-add_executable(lab6 lab6.cpp func.cpp)
+include_directories("/")
 
-
+add_executable("${PROJECT_NAME}" lab6.cpp inc/func.cpp)
