@@ -1,5 +1,6 @@
 
 #include<iostream>
+#include "headers/lab6.hpp"
 using namespace std;
 int const m = 100;
 
