@@ -5,7 +5,7 @@
 #include<iostream>
 #include<stdio.h>
 #include<cmath>
-#include "headers/lab6.hpp"
+#include "inc/lab6.hpp"
 using namespace std;
 
 

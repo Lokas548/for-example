@@ -8,6 +8,5 @@ set(CMAKE_CXX_STANDARD 17)			 # устанавливаем 17 стандарт �
 set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 
-include_directories("/")
 
-add_executable("${PROJECT_NAME}" lab6.cpp inc/func.cpp)
+add_executable("${PROJECT_NAME}" lab6.cpp src/func.cpp inc/lab6.hpp)
